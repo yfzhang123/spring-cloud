@@ -1,0 +1,24 @@
+#server:
+#  port: 8091
+#spring:
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#    sentinel:
+#      transport:
+#        port: 9999
+#        dashboard: localhost:8080
+#      web-context-unify: false
+#  application:
+#    name: order-service
+#
+#feign:
+#  sentinel:
+#    enabled: true
+
+    #server.port=8091
+    #spring.application.name=order-service
+    #spring.cloud.nacos.discovery.server-addr= localhost:8848
+    #spring.cloud.sentinel.transport.port= 9999
+#spring.cloud.sentinel.transport.dashboard= localhost:8080

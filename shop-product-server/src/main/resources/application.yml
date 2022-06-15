@@ -1,0 +1,12 @@
+#server:
+#  port: 8081
+#spring:
+#  application:
+#    name: product-service
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+##server.port=8081
+##spring.application.name=product-service
+##spring.cloud.nacos.discovery.server-addr=http://localhost:8848
