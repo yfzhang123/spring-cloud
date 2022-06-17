@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/testmp11?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 123456
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  mapper-locations: classpath*:com/bjpowernode/testmp11/mapper/*.xml
+#  mapper-locations: classpath*:/com/bjpowernode/testmp11/mapper/**/*Mapper.xml

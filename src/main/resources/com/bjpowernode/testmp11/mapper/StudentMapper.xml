@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bjpowernode.testmp11.mapper.StudentMapper">
+    <resultMap id="baseResultMap" type="com.bjpowernode.testmp11.entity.Student">
+    </resultMap>
+    <select id="selectByName" resultType="com.bjpowernode.testmp11.entity.Student">
+        select * from student
+        where name = #{name}
+    </select>
+
+</mapper>
